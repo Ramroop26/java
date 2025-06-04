@@ -15,7 +15,7 @@ public class array1 {
             arr[i] = obj.nextInt();
         }
         for(int arr1:arr){
-            System.out.println(arr1);
+            System.out.print(arr1);
         }
 
     

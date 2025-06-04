@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class arr {
+public class Reverse {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
 
@@ -9,7 +9,7 @@ public class arr {
 
         int[] arr = new int[size];
 
-        System.out.println("Enter the values of the array:");
+        System.out.print("Enter the values of the array:");
         for (int i = 0; i < size; i++) {
             arr[i] = obj.nextInt();
         }
@@ -22,7 +22,7 @@ public class arr {
         }
 
         // Display the reversed array
-        System.out.println("Reversed array:");
+        System.out.print("Reversed array:");
         for (int num : arr) {
             System.out.print(num + " ");
         }
