@@ -8,16 +8,4 @@ public class countOfFrequency {
                 
 
                 for(int j =i+1; j<6; j++){
-                    if(arr[i]== arr[j]){
-                        count++;
-                        arr[j] = -1;
-                }
-
-            }
-        }
-        if(arr[i]!=-1){
-        System.out.println(arr[i] + " is " + count); 
-        }
-    }
-}
-}
+                    if(arr[i]==arr[j]){
