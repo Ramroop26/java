@@ -1,4 +1,4 @@
-public class palindrome {
+public class palindrome{
     static boolean Palindrome(int arr[]){
         int n = arr.length;
         for(int i = 0; i<n-1; i++){

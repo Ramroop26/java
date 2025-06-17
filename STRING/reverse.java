@@ -1,34 +1,32 @@
  class reverse {
-static boolean  reverse(String str)
+    static void  reverse(String str)
 {
-int left=0;
-int right=str.length()-1;
+char arr[] = new char [str.length()];
+for (int i = 0; i <str.length(); ++i) {
+    arr[i] = str.charAt(i);
+    
+}
+
+int right = str.length()-1;
+int left = 0;
+
 while(left<right)
 {
-if(str.charAt(right)!=str.charAt(left))
-    {
-        return false;
-    }
- left++;
-  right--;
+      char  temp  = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+        right--;
+        left++;
 }
- return  true;
+for(char i: arr){
+    System.out.println(i);
 }
-public static void main(String[] args) {
-        String str="naman";
-if(reverse(str))
-{
-    System.out.println("yes");
 }
-else
-{
-    System.out.println("no");
-}
-
+    public static void main(String[] args) {
+        String str = "zyxwvu";
+        reverse(str);
+        
 
     }
-
-
-
     
 }
