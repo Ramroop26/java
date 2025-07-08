@@ -1,4 +1,4 @@
-public class one {
+class one{
     // return data type 
     static int display(){
         return 10;

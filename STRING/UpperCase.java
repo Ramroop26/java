@@ -1,14 +1,11 @@
 public class UpperCase{
     
     static void  UpperCase(String str) {
-        char arr[] = new char[str.length()];
+        char arr[] = str.toCharArray();
         
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if (ch >= 'A' && ch <= 'Z') {
-                arr[i] = (char)(ch + 32);  
-            } else {
-                arr[i] = ch;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] >= 'A' && arr[i] <= 'Z') {
+                arr[i] = (char)(arr[i] + 32);  
             }
         }
         

@@ -9,7 +9,7 @@ public class Palindrome{
         return true;
     }
     public static void main(String[] args) {
-        int arr[] = {1,2,3,2,2};
+        int arr[] = {1,2,3,2,1};
         if(Palindrome(arr)){
             System.out.println("Palindrime");
         }

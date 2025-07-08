@@ -1,6 +1,6 @@
 public  class movezero{
     public static void main(String[] args) {
-        int[] arr = {0, 1, 0, 3, 1,2};
+        int[] arr = {0, 1, 0, 3, 1,2,0};
         int j=0;
         int size = arr.length;
         for(int i=0; i<size; i++){
@@ -13,12 +13,11 @@ public  class movezero{
         }
 
 }
-for(int i=j; i<size; i++){
-    arr[i]=0;
-    
+for(int i=0; i<size; i++){
+    System.out.println(arr[i]+ "");
 }
-for(int i:arr){
-System.out.println(i);
-}
-    }
+// for(int i:arr){
+// System.out.println(i);
+// }
+  }
 }
